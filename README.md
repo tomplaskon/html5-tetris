@@ -7,17 +7,17 @@ Usage
 =====
 1. include the script in your HTML header:
 
-<head>
-  <script src="tetris.js"></script>
-</head>
+&lt;head&gt;
+  &lt;script src="tetris.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
 
 2. include a canvas element with an id:
 
-<canvas id="game_canvas" width="200" height="440"></canvas>
+&lt;canvas id="game_canvas" width="200" height="440"&gt;&lt;/canvas&gt;
 
 3. call tetris.load() and pass in the canvas object:
 
-<body onload="tetris.load(document.getElementById('game_canvas'))">
+&lt;body onload="tetris.load(document.getElementById('game_canvas'))"&gt;
 
 4. You're done. Have fun!
 
