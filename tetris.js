@@ -132,11 +132,13 @@ tetris.Game.prototype.rotate = function() {
 
 // capture when keys are pressed and route to the proper handler
 tetris.Game.prototype.keyPressed = function(e) {
+
     var evt = e || window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
     
-    //alert(evt.keyCode);
+    //alert(charCode);
     
-    switch (evt.keyCode) {
+    switch (charCode) {
     	case 119:
     	case 87:
     		tetris.currentGame.rotate();
