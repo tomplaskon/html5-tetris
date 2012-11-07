@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>HTML5 Tetris</title>
+		<script src="tetris.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+	<body onload="tetris.load(document.getElementById('game_canvas'))">
+		<h1>HTML5 Tetris</h1>
+		
+		<p class="legend">
+			<span class="key">A = move left</span>
+			<span class="key">S = move down</span>
+			<span class="key">D = move right<span>
+			<span class="key">W = rotate</span>
+		</p>
+		<canvas id="game_canvas" width="200" height="440" style="border: 1px solid black;"></canvas>
+	</body>
+	
+</html>
