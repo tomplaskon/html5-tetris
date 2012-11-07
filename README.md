@@ -3,25 +3,24 @@ html5-tetris
 
 An HTML5 version of Tetris. Easy to use.
 
-Usage
-=====
-1.  include the script in your HTML header:
+## Usage
 
-	&lt;head&gt;
-		&lt;script src="tetris.js"&gt;&lt;/script&gt;
-	&lt;/head&gt;
+Include the script in your HTML header:
 
-2. include a canvas element with an id:
+	<head>
+		<script src="tetris.js"></script
+	</head>
 
-	&lt;canvas id="game_canvas" width="200" height="440"&gt;&lt;/canvas&gt;
+Include a canvas element with an id:
 
-3. call tetris.load() and pass in the canvas object:
+	<canvas id="game_canvas" width="200" height="440"></canvas>
 
-	&lt;body onload="tetris.load(document.getElementById('game_canvas'))"&gt;
+Call tetris.load() and pass in the canvas object:
 
-4. You're done. Have fun!
+	<body onload="tetris.load(document.getElementById('game_canvas'))">
 
-Sample Code
-===========
+And you're done. Have fun!
+
+## Sample Code
 
 See index.html for a working sample.
