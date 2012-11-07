@@ -3,6 +3,8 @@ html5-tetris
 
 An HTML5 version of Tetris. Easy to use.
 
+See the [demo](http://tomplaskon.site44.com/tetris/).
+
 ## Usage
 
 Include the script in your HTML header:
